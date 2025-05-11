@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = var.aws_access_key_id
-  secret_key = var.aws_secret_access_key
+  access_key = AKIAUPBBEUK6TAHL6ROF
+  secret_key = 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
 }
 
 resource "aws_db_instance" "mydb" {
